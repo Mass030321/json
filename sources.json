@@ -1,5 +1,5 @@
 {
-  "activation_code": "123456",
+  "activation_code": "@@123456",
   "servers": [
     {
       "name": "Server 1",
