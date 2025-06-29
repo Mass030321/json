@@ -18,15 +18,7 @@
       "url": "https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/allgr.m3u"
     },
     {
-      "name": "shahid tv",
-      "url": " https://www.elahmad.net/app_109/m3u/iptv_32.php?id=shahid_tv"
-    },
-    {
-      "name": "Server 6",
-      "url": "https://raw.githubusercontent.com/Mass030321/iptv.m3u/main/live.m3u"
-    },
-    {
-      "name": "Server 7",
+      "name": "Server 5",
       "url": "https://www.elahmad.net/app_109/m3u/iptv_32.php?id=Abdo_Yasin"
     }
   ]
