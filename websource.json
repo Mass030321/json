@@ -3,15 +3,15 @@
   "servers": [
     {
       "name": "سيرفر 1",
-      "url": "https://iptv-org.github.io/iptv/languages/ara.m3u"
+      "url": "https://raw.githubusercontent.com/Mass030321/iptv.m3u/refs/heads/main/livear.m3u"
     },
     {
       "name": "سيرفر 2",
-      "url": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8"
+      "url": "https://raw.githubusercontent.com/Mass030321/iptv.m3u/refs/heads/main/server2.m3u"
     },
     {
       "name": "سيرفر 3",
-      "url": "https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/allgr.m3u"
+      "url": "https://raw.githubusercontent.com/Mass030321/iptv.m3u/refs/heads/main/server3.m3u"
     }
   ]
 }
