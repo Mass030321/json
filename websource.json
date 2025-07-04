@@ -1,0 +1,17 @@
+{
+  "activation_code": "123456789",
+  "servers": [
+    {
+      "name": "سيرفر 1",
+      "url": "https://iptv-org.github.io/iptv/languages/ara.m3u"
+    },
+    {
+      "name": "سيرفر 3",
+      "url": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8"
+    },
+    {
+      "name": "سيرفر 4",
+      "url": "https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/allgr.m3u"
+    },
+  ]
+}
