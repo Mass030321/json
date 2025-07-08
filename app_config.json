@@ -1,0 +1,5 @@
+{
+  "official_website_url": "http://your-github-website.com/",
+  "telegram_link": "https://t.me/your_telegram_channel",
+  "update_check_url": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO_NAME/main/update_info.json" 
+}
