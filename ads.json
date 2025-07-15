@@ -1,1 +1,90 @@
-
+{
+  "ads_enabled": true,
+  "ad_networks": {
+    "admob": {
+      "app_id": "ca-app-pub-3940256099942544~3347511713",
+      "banner_ad_unit": "ca-app-pub-3940256099942544/6300978111",
+      "interstitial_ad_unit": "ca-app-pub-3940256099942544/1033173712",
+      "rewarded_ad_unit": "ca-app-pub-3940256099942544/5224354917"
+    },
+    "facebook": {
+      "placement_id": "YOUR_FACEBOOK_PLACEMENT_ID"
+    }
+  },
+  "ad_placements": {
+    "splash_screen": {
+      "enabled": true,
+      "type": "banner",
+      "position": "bottom"
+    },
+    "main_screen": {
+      "enabled": true,
+      "type": "banner",
+      "position": "top"
+    },
+    "before_channel_play": {
+      "enabled": true,
+      "type": "interstitial",
+      "frequency": 3
+    },
+    "channel_list": {
+      "enabled": true,
+      "type": "native",
+      "interval": 5
+    },
+    "video_overlay": {
+      "enabled": true,
+      "type": "banner",
+      "position": "bottom-right",
+      "delay": 10
+    }
+  },
+  "custom_ads": [
+    {
+      "id": "welcome_banner",
+      "type": "image",
+      "url": "https://via.placeholder.com/320x50/0078d7/ffffff?text=مرحبا+بكم",
+      "click_url": "https://example.com/welcome",
+      "placement": "splash_screen",
+      "duration": 5,
+      "width": 320,
+      "height": 50
+    },
+    {
+      "id": "main_promotion",
+      "type": "text",
+      "text": "🎉 عروض خاصة - اشترك الآن واحصل على خصم 50%",
+      "click_url": "https://example.com/offers",
+      "placement": "main_screen",
+      "duration": 0
+    },
+    {
+      "id": "video_overlay_ad",
+      "type": "image",
+      "url": "https://via.placeholder.com/200x50/ff4444/ffffff?text=إعلان",
+      "click_url": "https://example.com/product",
+      "placement": "video_overlay",
+      "duration": 0,
+      "width": 200,
+      "height": 50
+    }
+  ],
+  "settings": {
+    "interstitial_frequency": 3,
+    "banner_refresh_rate": 30,
+    "video_ad_skip_time": 5,
+    "max_ad_load_time": 10,
+    "fallback_enabled": true
+  },
+  "targeting": {
+    "age_group": "18-65",
+    "interests": ["technology", "entertainment", "sports"],
+    "language": "ar",
+    "country": "ALL"
+  },
+  "analytics": {
+    "track_impressions": true,
+    "track_clicks": true,
+    "track_conversions": false
+  }
+}
